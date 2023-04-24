@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food_Dice</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="area1">
+        <h1 class="title">What food for today?</h1>
+        <h2 class="text-type">類型</h2>
+        <div class="foodType">
+            <div>
+                <label for="rice">飯</label>
+                <input type="checkbox" id="rice" value="rice">
+            </div>
+            <div>
+                <label for="noodle">麵</label>
+                <input type="checkbox" id="noodle" value="noodle">
+            </div>
+            <div>
+                <label for="hotpot">鍋</label>
+                <input type="checkbox" id="hotpot" value="hotpot">
+            </div>
+            <div>
+                <label for="foreign">異國</label>
+                <input type="checkbox" id="foreign" value="foreign">
+            </div>
+            <div>
+                <label for="others">其他</label>
+                <input type="checkbox" id="others" value="others">
+            </div>
+        </div>
+        <button type="button" id="btn" class="btn">Roll</button>
+        <h2 class="order">今天吃 <span id="order">...</span> !!</h2>
+    </div>
+    
+
+    <script src="./main.js"></script>
+</body>
+</html>

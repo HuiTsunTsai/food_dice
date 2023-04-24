@@ -1,0 +1,65 @@
+body{
+    background-color: #4e7d8c;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area1{
+   text-align: center;
+
+   .title{
+    font-family: "Comic Sans MS";
+    background-color: #e0d9d9;
+    width: 420px;
+    height: 100px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .text-type{
+    font-style: italic;
+   }
+
+   .foodType{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+    label{
+        margin-left: 30px;
+    }
+    
+   }
+
+   .btn{
+    color: white;
+    background-color: #2f3948;
+    width: 200px;
+    height: 30px;
+    border-style: ridge;
+    border-radius: 10px;
+   }
+
+   .btn:hover{
+    cursor: grab;
+    background-color: #364d3e;
+   }
+
+   .btn:active{
+    scale: 1.2;
+   }
+
+   #order{
+    color: #262e3a;
+   }
+
+   .order{
+    font-size: 32px;
+   }
+}

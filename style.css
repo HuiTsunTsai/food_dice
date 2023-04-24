@@ -1,0 +1,55 @@
+body {
+  background-color: #4e7d8c;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.area1 {
+  text-align: center;
+}
+.area1 .title {
+  font-family: "Comic Sans MS";
+  background-color: #e0d9d9;
+  width: 420px;
+  height: 100px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.area1 .text-type {
+  font-style: italic;
+}
+.area1 .foodType {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.area1 .foodType label {
+  margin-left: 30px;
+}
+.area1 .btn {
+  color: white;
+  background-color: #2f3948;
+  width: 200px;
+  height: 30px;
+  border-style: ridge;
+  border-radius: 10px;
+}
+.area1 .btn:hover {
+  cursor: grab;
+  background-color: #364d3e;
+}
+.area1 .btn:active {
+  scale: 1.2;
+}
+.area1 #order {
+  color: #262e3a;
+}
+.area1 .order {
+  font-size: 32px;
+}/*# sourceMappingURL=style.css.map */
