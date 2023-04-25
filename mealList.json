@@ -1,0 +1,72 @@
+[
+    {
+        "name": "泰灶咖",
+        "category": ["rice", "noodle", "foreign"],
+        "filter": false
+    },
+    {
+        "name": "鄉鄰",
+        "category": ["rice", "noodle"],
+        "filter": false
+    },
+    {
+        "name": "翰香食堂",
+        "category": ["rice", "noodle"],
+        "filter": false
+    },
+    {
+        "name": "鍋燒麵",
+        "category": ["noodle"],
+        "filter": false
+    },
+    {
+        "name": "炒飯",
+        "category": ["rice"],
+        "filter": false
+    },
+    {
+        "name": "八方雲集",
+        "category": ["others"],
+        "filter": false
+    },
+    {
+        "name": "火鍋",
+        "category": ["hotpot"],
+        "filter": false
+    },
+    {
+        "name": "韓式料理",
+        "category": ["rice", "noodle", "foreign"],
+        "filter": false
+    },
+    {
+        "name": "米菓廚房",
+        "category": ["rice", "noodle", "foreign"],
+        "filter": false
+    },
+    {
+        "name": "神武拉麵",
+        "category": ["noodle", "foreign"],
+        "filter": false
+    },
+    {
+        "name": "陳昭料理所",
+        "category": ["rice"],
+        "filter": false
+    },
+    {
+        "name": "吳家鴨香飯",
+        "category": ["rice", "noodle"],
+        "filter": false
+    }, 
+    {
+        "name": "甲侯八拉麵",
+        "category": ["rice", "noodle"],
+        "filter": false
+    },
+    {
+        "name": "雞肉飯",
+        "category": ["rice"],
+        "filter": false
+    }
+]
