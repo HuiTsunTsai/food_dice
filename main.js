@@ -52,8 +52,20 @@ function mealRandom(){
     order.innerText = foodList[random].name;
 }
 
+function mealAllRandon(){
+    const allRandon = Math.floor(Math.random() * mealList.length);
+    order.innerText = mealList[allRandon].name;
+}
+
 
 btn.addEventListener("click", function(){
-    filter();
-    mealRandom();
+    if(!checkList.checked){
+        mealAllRandon();
+    }else{
+        setTimeout(() =>{
+            filter();
+            mealRandom();
+        },500)
+    }
+    
 });
